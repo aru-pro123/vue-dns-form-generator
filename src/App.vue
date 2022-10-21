@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DNSRecordForm/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DNSRecordForm from './components/DNSRecordForm.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DNSRecordForm
   }
 }
 </script>
