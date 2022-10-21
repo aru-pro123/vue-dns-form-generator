@@ -1,10 +1,28 @@
 {
   "name": "vue-dns-form-generator",
+  "description": "A simple component to convert number to word",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "dev@arunya",
+    "email": "dev.arunya@gmail.com"
+  },
+  "keywords": [
+    "vue",
+    "dns",
+    "form",
+    "dns-form"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "repository": "https://github.com/aru-pro123/vue-dns-form-generator",
+  "bugs": "https://github.com/aru-pro123/vue-dns-form-generator/issues",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue-dns-form-generator ./src/install.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
